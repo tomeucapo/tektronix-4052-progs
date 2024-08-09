@@ -1,6 +1,6 @@
 # tektronix-4052-progs
 Recently I restored an old Tektronix 4052A Computer. Thanks to VCF Forums, specially to [Monty McGraw](https://github.com/mmcgraw74) and his repository of lot of documentation and programs to use with Tek 405x!
-This little repo that contains Columbia Space Shuttle CAD code converted from 
+This little repo that contains Columbia Space Shuttle CAD code converted HP85 BASIC program from [Calculator Nostalgia](https://calc.fjk.ch/bibliothek/programme/hp-85-space-shuttle/) to Tektronix 405x BASIC with Plotter HP support included.
 
 # Upload procedure programs to Tektronix 4052A:
 
@@ -47,6 +47,8 @@ PRINT@40:"HELLO FROM TEKTRONIX"
 And see your terminal application if string shows or not.
 
 ## Prepare to receive program from PC
+
+For my little experience, when you create BASIC programs with PC editor you need create ASCII/ANSI with CR end of line!
 
 ```
 DELETE ALL
