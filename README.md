@@ -1,4 +1,7 @@
 # tektronix-4052-progs
+
+![Tektronix 4052A](https://github.com/tomeucapo/tektronix-4052-progs/blob/main/columbia.jpg)
+
 Recently I restored an old [Tektronix 4052A Computer](https://w140.com/tekwiki/wiki/4052). Thanks to VCF Forums, specially to [Monty McGraw](https://github.com/mmcgraw74) and his [repository](https://github.com/mmcgraw74/Tektronix-4051-4052-4054-Program-Files) of lot of documentation and programs to use with Tek 405x!
 This little repo that contains Columbia Space Shuttle CAD code converted HP85 BASIC program from [Calculator Nostalgia](https://calc.fjk.ch/bibliothek/programme/hp-85-space-shuttle/) to Tektronix 405x BASIC with Plotter HP support included.
 
@@ -65,3 +68,9 @@ If transfer is interrupted for somethin BASIC erroneus line you need (maybe) flu
 CALL"TERMIN"
 ```
 Wait to flush all content from serial buffers, and then press User Definable Key 5 (two times) to interrupt Serial terminal program on Tektronix.
+
+# columbia.bas:
+
+That contains CAD draw converted from AutoCAD columbia.dwg file to DATA BASIC file to use with MOVE and DRAW commands, converted from HP85 BASIC program to Tektronix 504x BASIC. Original BASIC file from  [Calculator Nostalgia](https://calc.fjk.ch/bibliothek/programme/hp-85-space-shuttle/.
+This modificated version that contains HP Plotter commands using plotter HP 7550A located in GPIB address #5 and can choose if you output to screen or/and to plotter.
+
