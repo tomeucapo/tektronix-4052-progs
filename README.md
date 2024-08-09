@@ -31,12 +31,12 @@ CALL "CMFLAG",3           | set XON/XOFF protocol for serial TX and RX
 Download [RealTerm](https://realterm.sourceforge.io/) on windows or use MiniTerm on Linux for example. 
 Configure terminal program with: (9600-N-8-1)
 
-9600 baud 
-No parity
-8 data bits
-1 stop bit
-none Hardware Flow Control
-XON/XOFF Receive and Transmit Software Flow Control
+- 9600 baud 
+- No parity
+- 8 data bits
+- 1 stop bit
+- none Hardware Flow Control
+- XON/XOFF Receive and Transmit Software Flow Control
 
 ## Check on Tektronix configuration works:
 
@@ -55,9 +55,11 @@ DELETE ALL
 OLD@40:
 ```
 
+When program are transmited from PC to Tektronix, you need interrupt with press BREAK two times. 
+
 ### Clear serial buffers on Tektronix (If is necessary)
 
-When program are transmited from PC to Tektronix, you need interrupt with press BREAK two times. If transfer is interrupted for somethin BASIC line erroneus, you ensure flush Tektronix buffers:
+If transfer is interrupted for somethin BASIC erroneus line you need (maybe) flush Tektronix buffers:
 
 ```
 CALL"TERMIN"
