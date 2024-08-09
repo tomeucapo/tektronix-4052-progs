@@ -2,7 +2,7 @@
 Recently I restored an old [Tektronix 4052A Computer](https://w140.com/tekwiki/wiki/4052). Thanks to VCF Forums, specially to [Monty McGraw](https://github.com/mmcgraw74) and his repository of lot of documentation and programs to use with Tek 405x!
 This little repo that contains Columbia Space Shuttle CAD code converted HP85 BASIC program from [Calculator Nostalgia](https://calc.fjk.ch/bibliothek/programme/hp-85-space-shuttle/) to Tektronix 405x BASIC with Plotter HP support included.
 
-# Upload procedure programs to Tektronix 4052A:
+# Programs upload procedure: 
 
 ## Configure Tektronix:
 
